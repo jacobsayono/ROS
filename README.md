@@ -22,7 +22,7 @@ runs faxer.py<br>
 runs printer.py<br>
 <br>
 <br>
-**Thoughts:**
+**Final thoughts:**
 - Two complete separate programs are talking to one another through the magic of ROS!
 - Not too complicated; most difficult part was getting the workspace set up
 - Writing the programs is just like any other python program except with a little bit of extra spice
