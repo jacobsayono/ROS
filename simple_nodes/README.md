@@ -13,7 +13,7 @@ vision -> plan -> drive
 **Drive:** This program receives commands from Plan and tells the robot to go left or right to immitate motor controls
 
 `
-1 2 3 4 5 ... -> odd even odd even odd even ... -> right left right left right
+1 2 3 4 5 ... -> odd even odd even odd even ... -> right left right left right ...
 `
 
 # Notes:
