@@ -1,0 +1,17 @@
+- fine tuned virtual machine processing settings to remove scrolling lag and adjusted linux screen resolution
+	-installed some extensions as well to adjust desktop icon sizes
+
+- removed "junks" that did not affect python program in ROS (but the "junks" can be of more importance for more complex systems and applications)
+
+- architecture: 3 nodes (vision, plan, drive)
+	- vision creates a counter
+	- plan receives data from vision and identifies the integer as even or odd
+	- drive receieves data from vision and tells robot to turn left if even and right if odd
+
+- subscriber cannot identify an integer from input() in publisher. i think input() converts your number automatically into a string
+	- used a counter instead
+
+- i think publisher+subscriber node cannot have multiple functions in the program(?)
+
+- can process data either in publisher node first (then just print onto subsriber node later) or in subsriber node (process data there and print in that program)
+	- i think 2nd way makes more sense
