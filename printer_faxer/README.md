@@ -31,6 +31,7 @@ source ~/<your_workspace_name>/devel/setup.bash
 ## Continuing... creating a package
 Okay, now make directories where you will create and write .py files. Make sure you are in the src directory.
 ```
+cd src
 catkin_create_pkg <your_package_name> std_msgs geometry_msgs rospy
 ```
 The things after <your_package_name> are your dependencies where you can import into your ROS scripts. Above are common examples.
