@@ -43,6 +43,8 @@ mkdir python_scripts
 ```
 Now you are ready to start writing Python programs in ROS!
 
+## After writing your program(s)
+
 Once you have written your code and want to test/run them, first go back to <your_workspsace_name> directory, then write this command to make sure everything is compiled:
 ```
 catkin_make
