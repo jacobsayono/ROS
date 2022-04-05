@@ -38,6 +38,7 @@ The things after <your_package_name> are your dependencies where you can import 
 
 Create another folder (there is a new "src" folder; this is for c++ files. the one we will make is for python files). This should be under the <your_package_name> directory:
 ```
+cd package
 mkdir python_scripts
 ```
 Now you are ready to start writing Python programs in ROS!
