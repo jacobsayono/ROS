@@ -41,7 +41,10 @@ Create another folder (there is a new "src" folder; this is for c++ files. the o
 cd package
 mkdir python_scripts
 ```
-Now you are ready to start writing Python programs in ROS!
+Now you are ready to start writing Python programs in ROS! Don't forget to write this shebang at the top of your .py files:
+```
+#!/usr/bin/env python
+```
 
 ## After writing your program(s)
 
